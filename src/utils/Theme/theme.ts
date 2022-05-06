@@ -1,0 +1,113 @@
+/* --------------------------------------------------------------------------------------------
+ * Copyright (c) Microsoft Corporation. All Rights Reserved.
+-------------------------------------------------------------------------------------------- */
+
+import { createTheme } from "@fluentui/style-utilities";
+
+export const defaultLightTheme = createTheme({
+  palette: {
+    themePrimary: "#0078d4",
+    themeLighterAlt: "#eff6fc",
+    themeLighter: "#deecf9",
+    themeLight: "#c7e0f4",
+    themeTertiary: "#71afe5",
+    themeSecondary: "#2b88d8",
+    themeDarkAlt: "#106ebe",
+    themeDark: "#005a9e",
+    themeDarker: "#004578",
+    neutralLighterAlt: "#faf9f8",
+    neutralLighter: "#f3f2f1",
+    neutralLight: "#edebe9",
+    neutralQuaternaryAlt: "#e1dfdd",
+    neutralQuaternary: "#d0d0d0",
+    neutralTertiaryAlt: "#c8c6c4",
+    neutralTertiary: "#a19f9d",
+    neutralSecondary: "#605e5c",
+    neutralPrimaryAlt: "#3b3a39",
+    neutralPrimary: "#323130",
+    neutralDark: "#201f1e",
+    black: "#000000",
+    white: "#ffffff",
+  },
+});
+
+export const grayLightTheme = createTheme({
+  palette: {
+    themePrimary: "#0078d4",
+    themeLighterAlt: "#eff6fc",
+    themeLighter: "#deecf9",
+    themeLight: "#c7e0f4",
+    themeTertiary: "#71afe5",
+    themeSecondary: "#2b88d8",
+    themeDarkAlt: "#106ebe",
+    themeDark: "#005a9e",
+    themeDarker: "#004578",
+    neutralLighterAlt: "#e4e4e4",
+    neutralLighter: "#e1e1e1",
+    neutralLight: "#d7d7d7",
+    neutralQuaternaryAlt: "#c9c9c9",
+    neutralQuaternary: "#bfbfbf",
+    neutralTertiaryAlt: "#b8b8b8",
+    neutralTertiary: "#a19f9d",
+    neutralSecondary: "#605e5c",
+    neutralPrimaryAlt: "#3b3a39",
+    neutralPrimary: "#323130",
+    neutralDark: "#201f1e",
+    black: "#000000",
+    white: "#ebebeb",
+  },
+});
+
+export const darkTheme = createTheme({
+  palette: {
+    themePrimary: "#0a95ff",
+    themeLighterAlt: "#00060a",
+    themeLighter: "#021829",
+    themeLight: "#032d4d",
+    themeTertiary: "#065999",
+    themeSecondary: "#0983e0",
+    themeDarkAlt: "#23a0ff",
+    themeDark: "#45aeff",
+    themeDarker: "#76c4ff",
+    neutralLighterAlt: "#211e1e",
+    neutralLighter: "#2a2727",
+    neutralLight: "#393434",
+    neutralQuaternaryAlt: "#423d3d",
+    neutralQuaternary: "#494444",
+    neutralTertiaryAlt: "#686262",
+    neutralTertiary: "#eeeeee",
+    neutralSecondary: "#f1f1f1",
+    neutralPrimaryAlt: "#f4f4f4",
+    neutralPrimary: "#e6e6e6",
+    neutralDark: "#f9f9f9",
+    black: "#fcfcfc",
+    white: "#171515",
+  },
+});
+
+export const blueTheme = createTheme({
+  palette: {
+    themePrimary: "#ffba0a",
+    themeLighterAlt: "#0a0700",
+    themeLighter: "#291e02",
+    themeLight: "#4d3803",
+    themeTertiary: "#996f06",
+    themeSecondary: "#e0a309",
+    themeDarkAlt: "#ffc123",
+    themeDark: "#ffca45",
+    themeDarker: "#ffd876",
+    neutralLighterAlt: "#0a056a",
+    neutralLighter: "#0e0970",
+    neutralLight: "#17127a",
+    neutralQuaternaryAlt: "#1d1880",
+    neutralQuaternary: "#221d85",
+    neutralTertiaryAlt: "#3b369a",
+    neutralTertiary: "#f6f6f6",
+    neutralSecondary: "#f8f8f8",
+    neutralPrimaryAlt: "#f9f9f9",
+    neutralPrimary: "#f2f2f2",
+    neutralDark: "#fcfcfc",
+    black: "#fdfdfd",
+    white: "#050063",
+  },
+});

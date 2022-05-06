@@ -1,12 +1,16 @@
 import "./App.css";
 
-import React from "react";
-import { ThemeProvider } from "@fluentui/react";
+import { ITheme, ThemeProvider } from "@fluentui/react";
+import React, { useState } from "react";
+
+import { ThemePicker } from "./utils/Theme/ThemePicker";
 
 function App() {
+  const [theme, setTheme] = useState<ITheme>();
   return (
     <div className="App">
-      <ThemeProvider>
+      <ThemePicker onThemeChanged={(theme) => setTheme(theme)} />
+      <ThemeProvider theme={theme} applyTo="body">
         <h1>Testing 2</h1>
       </ThemeProvider>
     </div>
