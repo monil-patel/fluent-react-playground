@@ -1,9 +1,10 @@
 import { DefaultButton, ITheme } from "@fluentui/react";
 import {
-  blueTheme,
-  darkTheme,
-  defaultLightTheme,
-  grayLightTheme,
+    adoDarkTheme,
+    blueTheme,
+    darkTheme,
+    defaultLightTheme,
+    grayLightTheme,
 } from "./theme";
 
 import React from "react";
@@ -23,6 +24,10 @@ export const ThemePicker: React.FunctionComponent<{
 
       <DefaultButton onClick={() => props.onThemeChanged(darkTheme)}>
         Dark Theme
+      </DefaultButton>
+
+      <DefaultButton onClick={() => props.onThemeChanged(adoDarkTheme)}>
+        Ado Dark Theme
       </DefaultButton>
 
       <DefaultButton onClick={() => props.onThemeChanged(blueTheme)}>

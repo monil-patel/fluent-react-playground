@@ -31,6 +31,34 @@ export const defaultLightTheme = createTheme({
   },
 });
 
+export const adoDarkTheme = createTheme({
+  isInverted: true,
+  palette: {
+    themePrimary: "#0081E3",
+    themeLighterAlt: "#000509",
+    themeLighter: "#001524",
+    themeLight: "#002744",
+    themeTertiary: "#004d88",
+    themeSecondary: "#0071c8",
+    themeDarkAlt: "#178ce6",
+    themeDark: "#389dea",
+    themeDarker: "#69b5ef",
+    neutralLighterAlt: "#302e2d",
+    neutralLighter: "#383735",
+    neutralLight: "#464443",
+    neutralQuaternaryAlt: "#4e4d4b",
+    neutralQuaternary: "#555352",
+    neutralTertiaryAlt: "#72706e",
+    neutralTertiary: "#c8c8c8",
+    neutralSecondary: "#d0d0d0",
+    neutralPrimaryAlt: "#dadada",
+    neutralPrimary: "#ffffff",
+    neutralDark: "#f4f4f4",
+    black: "#f8f8f8",
+    white: "#252423",
+  },
+});
+
 export const grayLightTheme = createTheme({
   palette: {
     themePrimary: "#0078d4",
@@ -59,6 +87,7 @@ export const grayLightTheme = createTheme({
 });
 
 export const darkTheme = createTheme({
+  isInverted: true,
   palette: {
     themePrimary: "#0a95ff",
     themeLighterAlt: "#00060a",
@@ -86,6 +115,7 @@ export const darkTheme = createTheme({
 });
 
 export const blueTheme = createTheme({
+  isInverted: true,
   palette: {
     themePrimary: "#ffba0a",
     themeLighterAlt: "#0a0700",
