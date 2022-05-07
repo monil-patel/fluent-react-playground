@@ -2,9 +2,10 @@ import "./Card.css";
 
 import * as React from "react";
 
-import { Depths, mergeStyles, useTheme } from "@fluentui/react";
+import { Text, mergeStyles, useTheme } from "@fluentui/react";
 
 interface ICardProps {
+  readonly title?: string;
   /**
    * Optional classname to add to the card container div
    */
@@ -59,11 +60,17 @@ export const Card: React.FunctionComponent<ICardProps> = (
       }`}
       style={{
         background: cardBackground,
-        boxShadow: `0 3.2px 7.2px 0 rgb(0 0 0 / 13%), 0 0.6px 1.8px 0 rgb(0 0 0 / 11%)`,
         ...styles,
       }}
     >
-      {props.children}
+      {props.title && (
+        <div className="fluent-card-header-default ">
+          <Text className="fluent-card-title-text" variant="mediumPlus">
+            {props.title}
+          </Text>
+        </div>
+      )}
+      <div className="fluent-card-content">{props.children}</div>
     </div>
   );
 };

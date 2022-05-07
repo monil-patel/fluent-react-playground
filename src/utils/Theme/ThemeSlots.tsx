@@ -1,18 +1,4 @@
-import {
-  DefaultButton,
-  IPalette,
-  ITheme,
-  Stack,
-  StackItem,
-  Text,
-  useTheme,
-} from "@fluentui/react";
-import {
-  blueTheme,
-  darkTheme,
-  defaultLightTheme,
-  grayLightTheme,
-} from "./theme";
+import { Stack, StackItem, Text, useTheme } from "@fluentui/react";
 
 import React from "react";
 
